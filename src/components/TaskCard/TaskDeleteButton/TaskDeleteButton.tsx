@@ -27,7 +27,7 @@ const TaskDeleteButton: React.FC<TaskDeleteButtonProps> = ({ id }) => {
       <button
         type="submit"
         disabled={pending}
-        className="hover:text-gray-700 text-lg cursor-pointer disabled:bg-gray-400"
+        className="hover:text-red-600 text-lg cursor-pointer disabled:bg-gray-400"
       >
         <FaTrashAlt />
       </button>
